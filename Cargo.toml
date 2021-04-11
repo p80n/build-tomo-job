@@ -1,0 +1,18 @@
+[package]
+name = "build_tomo_job"
+version = "0.1.0"
+authors = ["Peyton Vaughn <p8yton@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "build-tomo-job"
+test = false
+bench = false
+path = "src/main.rs"
+
+
+[dependencies]
+#hyperpolyglot = "0.1.7"
+git2 = "~0.13.17"
+env_logger = "~0.8"
+log = "~0.4.14"
